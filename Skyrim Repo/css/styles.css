@@ -69,7 +69,7 @@ audio {
         border-radius: 85px;
         box-shadow: 33px 33px 66px #121212,
             -33px -33px 66px #3c3c3c;
-        border: 1px solid whrgb(0, 0, 0)
+        border: 1px solid whrgb(0, 0, 0);
     }
 
 }
