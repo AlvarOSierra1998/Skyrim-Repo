@@ -1,13 +1,19 @@
-//ACTIVA LA LISTA DE LAS IMAGENES
-document.getElementById("show-list").onclick = function () {
+//ACTIVA LA LISTA DE LAS IMAGENES TEXTO
 
+document.getElementById("show-list").onclick = function () {
     var l = document.getElementById('List');
-    if (l.style.height == 0) {
-        l.style.height = 'auto';
-        l.style.opacity = '1';
+    if (l.style.display == 'none') {
+        l.style.display = 'block';
     } else {
-        l.style.height = '0';
-        l.style.opacity = '0';
+        l.style.display = 'none';
     }
 
 };
+function maxFot(){
+    let fot = document.querySelectorAll(".RACES");
+    fot.style.width = '12rem';
+    fot.style.margin = "auto"; 
+
+
+}
+
