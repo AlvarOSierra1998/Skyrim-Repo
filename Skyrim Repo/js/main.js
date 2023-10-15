@@ -1,5 +1,7 @@
 //ACTIVA LA LISTA DE LAS IMAGENES TEXTO
 
+/*
+
 document.getElementById("show-list").onclick = function () {
     var l = document.getElementById('List');
     if (l.style.display == 'none') {
@@ -16,4 +18,5 @@ function maxFot(){
 
 
 }
+*/
 
