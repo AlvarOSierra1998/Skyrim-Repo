@@ -51,7 +51,7 @@ header>img {
 }
 
 .titulosrazas:hover {
-    color: green;
+    color: rgb(114, 114, 114);
     letter-spacing: 7px;
 
 }
